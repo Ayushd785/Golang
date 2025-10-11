@@ -13,7 +13,7 @@ func main(){
 }
 
 func sqrt(x float64) float64 {
-	var z float64 = x
+	var z float64 = x/2 +1
 
 	for i:=0;i<10;i++{
 		newz := z-  (z*z -x)/(2*z);
