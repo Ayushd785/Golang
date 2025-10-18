@@ -7,3 +7,6 @@ import (
 func main(){
 	fmt.Printf("the value of pi is %g", math.Pi)
 }
+
+
+//test
