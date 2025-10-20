@@ -12,8 +12,9 @@ func main(){
 	fmt.Println(ans)
 }
 
+
 func sqrt(x float64) float64 {
-	var z float64 = x/2 +1
+	var k float64 = x/2 +1
 
 	for i:=0;i<10;i++{
 		newz := z-  (z*z -x)/(2*z);
@@ -21,8 +22,8 @@ func sqrt(x float64) float64 {
 			return newz;
 		}
 
-		z = newz;
-		fmt.Println(z)
+		k = newz;
+		fmt.Println(k)
 
 	}
 	return z;
@@ -30,4 +31,3 @@ func sqrt(x float64) float64 {
 }
 
 
-// test
